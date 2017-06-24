@@ -1,0 +1,32 @@
+/*SIGN UP BUTTON CSS*/
+
+
+.button-link {
+    padding: 7px 82px;
+    background: #00B9F5;
+	border: 1px solid #00B9F5;
+    color: WHITE;
+    margin-right:60px;
+    margin-left:60px;	
+}
+.button-link:hover {  
+    background: #00A6F5;
+	border: 1px solid #00A6F5;
+    color: WHITE;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+
+
+
+.inp{
+	
+border-bottom: 1px solid #00A6F5;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+padding: 7px 14px;
+margin-right:60px;	
+margin-left:60px;	
+outline: none;
+	
+}

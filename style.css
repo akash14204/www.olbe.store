@@ -1,0 +1,55 @@
+body  {
+      background: url("image/asd.png") no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	
+}
+
+
+
+/*SIGN UP BUTTON CSS*/
+.button-link {
+    padding: 7px 70px;
+    background: #00B9F5;
+	border: 1px solid #00B9F5;
+    color: WHITE;
+    margin-right:50px;	
+}
+.button-link:hover {  
+    background: #00A6F5;
+	border: 1px solid #00A6F5;
+    color: WHITE;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+
+.div2 {
+	background-color:#fff;
+    width: 500px;
+    height: 270px;    
+    padding: 30px;
+    border: 10px solid :#C5EFF7;
+	
+}
+
+.user{
+	
+	
+	
+	
+	
+}
+#tb-name{
+	padding:10px;
+	font-weight:bold;
+	
+	
+	
+}
+.data{
+	
+	padding: 30px;
+	margin-top:150px;
+	
+	
+}

@@ -1,0 +1,47 @@
+body{
+    
+	 background: url("image/bg_blue.jpg") no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;	
+}
+.box{
+ background: url("image/bg_red.jpg") no-repeat center center fixed #000; 
+ font-family:sans-serif;	 
+-webkit-box-shadow:  3px  3px  4px  0px  rgba(0,0,0,0.85);
+}
+
+.box_head,.footer{
+	width:100%;  
+	text-align:center;  
+	background-color:#fff;  
+	font-weight:bold;  
+	}
+	
+.data{
+ padding:10px; 
+ float:left;  
+ width:95%;
+ }
+
+.table_names{
+	float:right; 
+   font-size:20px;
+   }
+
+.table_col_1{
+ float:left;
+ width:40%;
+ padding-right:5%;  
+ text-align:center;  
+ color:#C5EFF7;
+}
+
+.table_col_2{
+ font-size:17px; 
+ font-weight:bold;
+ text-align:center;  
+ color:#FDE3A7;
+ }
+

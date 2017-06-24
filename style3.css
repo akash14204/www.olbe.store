@@ -1,0 +1,230 @@
+body {
+	background-color:#e7ab34;
+    padding-right:0px !important;
+    margin-right:0px !important;
+}
+
+body.modal-open {
+    overflow: auto;
+}
+	.navbar-custom {
+    background-color:black;
+    color:white;
+    border-radius:0;
+	opacity:0.7;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white; /* change this to any color you want! */;
+}
+
+
+.image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+width:100%;
+
+}
+
+
+.form{
+	
+	z-index:1;
+}
+
+
+.display {
+	
+	border:1px #c0c0c0 solid;
+	box-shadow: 10px 10px 5px #888888;
+	padding:2%;
+	margin-bottom:10px;
+	margin-top:75px;
+	
+	background-color:white;
+
+}
+.display3 {
+	
+	border:1px #c0c0c0 solid;
+	box-shadow: 10px 10px 5px #888888;
+	padding:2%;
+	margin-bottom:10px;
+	margin-top:10px;
+	color:black;
+	background-color:white;
+
+}
+.color-me{
+    color:white;
+
+}
+
+.display2{
+   padding:5%;
+   margin-left:40px;
+   padding-top:28px;
+   margin-top:-34px;
+}
+
+.inp{
+	
+border-bottom: 1px solid white;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+padding: 10px 14px;
+background-color:transparent;	
+outline: none;
+color:black;
+background-color:#eeeeee;
+width:242px;
+}
+.inp:hover{
+	
+	
+border: 2px solid #f8fe00;
+
+padding: 8.5px 12px;
+background-color:transparent;	
+outline: none;
+color:black;
+background-color:#eeeeee;
+width:242px;
+}
+
+
+.inp2{
+	
+border-bottom: 1px solid white;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+padding: 10px 12px;
+background-color:transparent;	
+outline: none;
+color:black;
+background-color:#eeeeee;
+width:117px;
+}
+.inp2:hover{
+	
+	
+border: 2px solid #f8fe00;
+
+padding: 8.5px 10px;
+background-color:transparent;	
+outline: none;
+color:black;
+background-color:#eeeeee;
+width:117px;
+}
+
+
+
+ /*INPUT CSS*/        
+.inp_signup{	
+border-bottom: 1px solid #00B9F5;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+padding: 7px 8px;
+outline: none;	
+color:black;
+}
+/*INPUT CSS FINISH*/
+
+
+.row_color{
+	
+	
+	background-color:#eeeeee;
+	margin-top:-3px;
+	box-shadow: 1px 1px 5px #888888;
+}
+.button-link {
+    padding: 11px 95px;
+    background: #f8fe00;
+	border: 1px solid #f8fe00;
+    color: black;
+    }
+.button-link:hover {  
+    background: #eff537;
+	border: 1px solid #eff537;
+    color: black;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+
+
+.button-link2 {
+    padding: 9px 45px;
+    background: #f8fe00;
+	border: 2px solid yellow;
+    color: black;
+	border-radius:5px;
+    }
+.button-link2:hover {  
+    background: #eff537;
+	border: 1px solid #eff537;
+    color: black;	
+	border: 2px solid yellow;
+}
+.button-link3 {
+    padding: 25px 83px;
+    background: transparent;
+	border: 1px solid #eeeeee;
+    color: black;
+	border-radius:5px;
+    }
+.button-link3:hover {  
+    background: #f8fe00;
+	border: 1px solid #f8fe00;
+    color: black;	
+}
+.button-link4 {
+    padding: 25px 75px;
+    background: #f8fe00;
+	border: 1px solid yellow;
+    color: black;
+	border-radius:5px;
+    }
+.button-link4:hover {  
+    background: #eff537;
+	border: 1px solid #eff537;
+    color: black;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+ /*FOR PLACEHOLDER IN LOWERCASE*/
+.input{ text-transform: uppercase;}
+::-webkit-input-placeholder { /* WebKit browsers */text-transform: none;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */text-transform: none;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */text-transform: none;}
+:-ms-input-placeholder { /* Internet Explorer 10+ */text-transform: none;}
+/*FINSH*/ 
+ 
+ 
+ 
+ 
+
+
+
+ /*CSS USED FOR COLOR GLPHYICON*/
+.white{ 
+   color:white;
+}
+.white:hover{ 
+   color:blue;
+}
+.blue{
+   padding-top:-20px;
+   font-size:25px;
+}
+ /*FINISH*/
+ 
+ 
+ 
