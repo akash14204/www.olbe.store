@@ -1,0 +1,313 @@
+
+.tileMe li {
+    display: inline;
+    float: left;
+}
+
+
+body{
+    
+	 background: url("../image/books8.jpg") no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;	
+    padding-right:0px !important;
+    margin-right:0px !important;
+}
+
+body.modal-open {
+    overflow: auto;
+}
+
+.form-control input {
+    box-sizing: content-box;
+}
+
+#myModal1 .modal-backdrop {
+	background-color: black;
+    opacity:0.8;
+}
+#myModal3 .modal-backdrop {
+	background-color: black;
+    opacity:0.8;
+}
+#mymodal5 .modal-backdrop {
+	background-color: #339999;
+    opacity:1;
+}
+#myModal6 .modal-backdrop {
+	background-color: black;
+    opacity:0.8;
+}
+
+
+ .modal-content{	
+	border-radius:0px;	
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white; /* change this to any color you want! */;
+}
+
+.nav3{
+	margin-top:-100px;
+}
+
+.nav2{
+	
+	margin-top:-10px;
+}
+.nav >  li > a:hover{
+	background-color:none;
+	
+}
+.nav >  li > a:focus{
+	background-color:none;	
+}
+/*NAV DESIGNING FINISH */
+
+a{
+	color:white;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+/*
+
+h1 {font-family: 'Pacifico', cursive;  font-weight: 300; font-size: 48px; }
+
+
+*/
+
+
+
+/*CIRLE GRAPHICS*/
+.destacados > div > div{
+	padding: 20px;
+	border-radius: 400px;
+	transition: 0.09s;
+    margin:15px; 	
+}
+.destacados > div:hover > div{
+	margin-top: -10px;
+	transition: 0.09s;
+	margin:20px;  /*for press effect on circle*/
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 5px; /*for corner shadow effect in circle */	
+}
+/*FINISH*/
+
+
+/*CIRLE margin TOP*/
+.circle{
+	margin-top:-10px;	
+}
+/*FINISH*/
+
+
+
+/*LEFT IMAGE OF MOBILE IN MAIN BODY*/
+.image{
+width:100%;
+margin-top:-10px;
+}
+/*FINISH*/
+
+
+
+
+
+  
+/*3D BUTTON IN MODEL USED IN CHOOSING BRANCH*/
+.btn3d {
+    position:relative;
+    top: -6px;
+    border:0;
+     transition: all 40ms linear;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-left:2px;
+     margin-right:2px;
+}
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+    -moz-outline-style:none;
+         outline:medium none;
+}
+.btn3d:active, .btn3d.active {
+    top:2px;
+}
+
+.btn3d.btn-primary {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #4D5BBE, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#4274D7;
+}
+.btn3d.btn-primary:active, .btn3d.btn-primary.active {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color:#4274D7;
+}
+
+/*FINISH */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*INPUT CSS*/        
+.inp{	
+border-bottom: 1px solid #00B9F5;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+padding: 7px 8px;
+outline: none;	
+}
+/*INPUT CSS FINISH*/
+
+
+/*SIGN UP BUTTON CSS*/
+.button-link {
+    padding: 7px 67px;
+    background: #00B9F5;
+	border: 1px solid #00B9F5;
+    color: WHITE;
+    margin-right:50px;	
+}
+.button-link:hover {  
+    background: #00A6F5;
+	border: 1px solid #00A6F5;
+    color: WHITE;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+
+
+/*SIGN UP BUTTON CSS*/
+.button-link1 {
+    padding: 3px px;
+    background: #00B9F5;
+	border: 1px solid WHITE;
+    color: WHITE;	
+}
+.button-link1:hover {  
+    background: #00A6F5;	
+    color: WHITE;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+
+
+
+/*SIGN UP BUTTON CSS*/
+.button-link2 {
+    padding: px px;
+    background: red;
+	border: 1px solid WHITE;
+    color: WHITE;	
+	margin-top:-80px;
+}
+.button-link2:hover {  
+    background: #00A6F5;	
+    color: WHITE;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+
+
+
+
+/*case avaibility input box style*/
+
+.status-available{
+color:#2FC332;
+}
+.status-not-available{
+color:#00A6F5;
+}
+/*FINISH */
+
+
+
+
+
+ 
+ /*CSS USED FOR COLOR GLPHYICON*/
+.white{ 
+   color:white;
+}
+.blue{
+   padding-top:-20px;
+   font-size:25px;
+}
+ /*FINISH*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*FOR PLACEHOLDER IN LOWERCASE*/
+.input1 { text-transform: uppercase;}
+::-webkit-input-placeholder { /* WebKit browsers */text-transform: none;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */text-transform: none;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */text-transform: none;}
+:-ms-input-placeholder { /* Internet Explorer 10+ */text-transform: none;}
+/*FINSH*/ 
+ 
+
+#table-scroll {
+  height:400px;
+  overflow:auto;  
+  margin-top:20px;
+}
+
+
+table {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size:13px;
+  width:100%;
+ }
+
+
+thead {
+  background: SteelBlue;
+  color: white;
+}
+
+th,
+td {
+  padding: 3px 5px;
+}
+
+tbody tr:nth-child(even) {
+  background: WhiteSmoke;
+}
+
+tbody tr td:nth-child(2) {
+  text-align:center;
+}
+
+
+tfoot {
+  background: SeaGreen;
+  color: white;
+  text-align: right;
+}
+
+tfoot tr th:last-child {
+  font-family: monospace;
+}

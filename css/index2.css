@@ -1,0 +1,101 @@
+body{
+    
+	 background: url("../image/full01.jpg") no-repeat #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;	
+	 background-attachment: fixed; 
+}
+h1 {
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	width:100%;
+	font-size: 49px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 49px;
+	 text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;	 
+     display: block;
+}
+
+.box{
+    width: 100%;
+    /*border: 1px solid black;*/
+
+    /* 100 = view port width, as 1vw = 1/100th of that
+       So if the container is 50% of view port (as here)
+       then factor that into how you want it to size.
+       Let's say you like 5vw if it were the whole width,
+       then for this container, size it at 2.5vw (5 * .5 [i.e. 50%])
+    */
+    font-size: 3.7vw;
+	font-weight: bold;
+	margin-top:180px;
+	text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;	 
+    display: block;
+}
+
+@media only screen and (max-width: 1026px) {
+    .box{
+    /*border: 1px solid black;*/
+
+    /* 100 = view port width, as 1vw = 1/100th of that
+       So if the container is 50% of view port (as here)
+       then factor that into how you want it to size.
+       Let's say you like 5vw if it were the whole width,
+       then for this container, size it at 2.5vw (5 * .5 [i.e. 50%])
+    */
+	margin-top:40px;
+    font-size: 8vw;
+    display: block;
+}
+}
+
+
+
+
+
+
+
+
+
+
+.box2{
+    /*border: 1px solid black;*/
+
+    /* 100 = view port width, as 1vw = 1/100th of that
+       So if the container is 50% of view port (as here)
+       then factor that into how you want it to size.
+       Let's say you like 5vw if it were the whole width,
+       then for this container, size it at 2.5vw (5 * .5 [i.e. 50%])
+    */
+    font-size: 1.7vw;
+	margin-top:30px;
+	padding-left:250px;
+	padding-right:250px;
+    display: block;
+}
+
+@media only screen and (max-width: 1026px) {
+    .box2{
+    font-size: 4vw;
+	margin-top:30px;
+	padding:0px;
+}
+}
+
+
+.text1{
+	font-family: "Nunito", sans-serif; font-size: 24px; 
+}
+
+
+
+
+
+.img{
+	width: 100px;
+	height:100px;
+	padding:18px;
+	}
